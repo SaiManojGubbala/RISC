@@ -166,8 +166,6 @@
     LW  :
         RegFile[rd] = Data_Memory[Immediate_Value + RegFile[rs1]] ;
 ---
-### Processor Architecture :
----
 ### Understanding Memories :
      Register File :
        These are the registers that are present inside the cpu and some are used for specific operations and 
