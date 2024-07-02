@@ -10,22 +10,8 @@
             J-Type - JAL 
             L-Type - LW 
             S-Type - SW
-    
-    - Pipelining :
-        This Processor involves a 5 stage Pipeline Architecture The pipeline steps involving :
-            IF   - Instruction Fetch
-            ID   - Instruction Decode
-            IEx  - Instruction Execute
-            IMem - Memory  Access
-            IW   - Write Back
-
-    - Hazard Detection :
-        As Pipeline comes with Hazards It has a Hazard Unit which can detect some hazards and also 
-    these hazards can be prevented using Forwarding , Stalling and Branch Prediction etc.. This 
-    processor has implemented Forwarding and Stalling for the hazards which are implemented here
-
-    - Verilog Implementation : 
-      This processor uses DataPath Controller type implementation in Verilog   
+    - Implementation : 
+      This processor is simply emulating a RISC-V processor in C   
 ---
 ## Methodology :
 ### <span style="color:Cyan">ALU</span> ( Arthemetic Logic Unit ) :
